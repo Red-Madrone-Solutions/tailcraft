@@ -1,0 +1,16 @@
+{
+    "name": "tailcraft/base-theme",
+    "type": "theme",
+    "autoload": {
+        "psr-4": {
+            "TailCraft\\Theme\\": "src-php/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matt Vanderpol",
+            "email": "matt@redmadronesolutions.com"
+        }
+    ],
+    "require": {}
+}
