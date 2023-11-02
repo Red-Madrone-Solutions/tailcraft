@@ -1,7 +1,7 @@
 {
   "name": "@rms/tailcraft-base-theme",
   "version": "1.0.0",
-  "description": "",
+  "description": "Supporting assets and processes for building CSS and JavaScript for the TailCraft base theme.",
   "main": "index.js",
   "scripts": {
     "prod": "postcss ./src-assets/css/styles.css --use cssnano -o ./assets/css/styles.css",
