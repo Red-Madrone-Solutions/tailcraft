@@ -1,5 +1,6 @@
 {
     "name": "tailcraft/base-theme",
+    "license": "ISC",
     "type": "theme",
     "autoload": {
         "psr-4": {
