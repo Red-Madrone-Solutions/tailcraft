@@ -1,5 +1,5 @@
 {
-    "name": "Red-Madrone-Solutions/tailcraft",
+    "name": "rms/tailcraft",
     "description": "Supporting PHP libraries and common code for the TailCraft base theme.",
     "license": "ISC",
     "type": "theme",
