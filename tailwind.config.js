@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const fluid_type = require('tailwindcss-fluid-type');
+
 module.exports = {
   content: [
     './*.php',
@@ -19,10 +21,26 @@ module.exports = {
       },
     },
   },
+  corePlugins: {
+    fontSize: false
+  },
   plugins: [
     require('@tailwindcss/typography'),
     require('@tailwindcss/forms'),
     require('tailwindcss-debug-screens'),
+    fluid_type({
+        settings: {
+            fontSizeMin: 1.25,
+            fontSizeMax: 1.375,
+            ratioMin: 1.125,
+            ratioMax: 1.2,
+            screenMin: 20,
+            screenMax: 96,
+            unit: 'rem',
+            prefix: '',
+                extendValues: false,
+        },
+    }),
   ],
 }
 
