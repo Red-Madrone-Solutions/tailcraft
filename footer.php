@@ -7,7 +7,7 @@
 
 <?php do_action( 'tailcraft_content_after' ); ?>
 
-<footer id="colophon" class="site-footer border-t border-subtle bg-white" role="contentinfo">
+<footer id="colophon" class="site-footer border-t border-subtle bg-white dark:bg-black mt-12" role="contentinfo">
 	<?php get_template_part('template-parts/footer/footer-widgets'); ?>
 
 	<?php do_action( 'tailcraft_footer' ); ?>

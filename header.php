@@ -18,7 +18,7 @@
     </script>
 </head>
 
-<body <?php body_class( 'font-sans font-light bg-white text-gray-800 text-lg text-base antialiased' ); ?>>
+<body <?php body_class( 'font-sans font-light bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 text-base leading-snug antialiased' ); ?>>
 
 <?php do_action( 'tailcraft_site_before' ); ?>
 
